@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Dropdown */
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+.dropdown li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+.dropdown li:hover {
+  background: #ddd;
+}
+
+/* Tabs */
+.tabs {
+  margin-bottom: 10px;
+}
+.tabBtn {
+  padding: 10px;
+}
+.tabContent {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* FAQ */
+.faq {
+  margin: 10px auto;
+  width: 60%;
+  text-align: left;
+}
+.faq-question {
+  cursor: pointer;
+  background: #eee;
+  padding: 8px;
+  border-radius: 5px;
+}
+.faq-answer {
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+input {
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
